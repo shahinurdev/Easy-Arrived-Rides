@@ -1,0 +1,36 @@
+
+.header{
+    height: 300px
+}
+.header .logo{
+    height: 50px;
+    display: block;
+    float: left;
+    margin: 29px;
+}
+.nav ul{
+    display: block;
+    float: right;
+    margin-right: 40px;
+}
+.nav li{
+    display: inline-block;
+    padding: 35px;
+}
+.nav a{
+        text-decoration: none;
+        font-weight: bold;
+}
+li.login {
+    background: red;
+    padding: 10px;
+    border-radius: 3px;
+}
+div#root {
+    background-image: url(../../images/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    height:800px;
+    text-align: center;
+}

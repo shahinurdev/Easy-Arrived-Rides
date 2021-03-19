@@ -1,0 +1,19 @@
+.container img{
+width: 200px;
+height: 100px;
+}
+.container {
+    margin-left: 160px;
+}
+.cardGroup{
+display: flex;
+float: left;
+margin: 12px;
+}
+.card{
+    width: 245px;
+    height: 150px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-top: 20px;
+}
