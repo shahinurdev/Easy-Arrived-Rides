@@ -1,0 +1,16 @@
+.form-group{
+    background: #EFEFEF;
+    border-radius: 10px;
+    padding-top: 20px;
+    height: 230px;
+    padding: 20px;
+}
+.form-group p{
+    margin-bottom: 0;
+}
+.searchInput{
+    text-align:center;
+    color:#FFFFFF;
+    background-color: #FF6E40;
+    margin-top: 10px;
+}

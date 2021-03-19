@@ -12,6 +12,7 @@
     display: block;
     float: right;
     margin-right: 40px;
+    padding-left: 385px;
 }
 .nav li{
     display: inline-block;
