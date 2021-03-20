@@ -2,7 +2,7 @@
     background: #EFEFEF;
     border-radius: 10px;
     padding-top: 20px;
-    height: 230px;
+    height: 237px;
     padding: 20px;
 }
 .form-group p{
@@ -13,4 +13,18 @@
     color:#FFFFFF;
     background-color: #FF6E40;
     margin-top: 10px;
+}
+#searchBox{
+    display:none;
+}
+.searchBoxRow{
+    padding: 12px;
+    background-color: white;
+    margin: 7px;
+    border-radius: 5px;
+
+}
+.searchImg img{
+    width: 50px;
+    height:40px;
 }
