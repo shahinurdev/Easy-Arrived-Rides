@@ -12,11 +12,11 @@ const Book = () => {
     console.log('reFake',vehicles);
     
     const handleSearch= () => {
-        var x = document.getElementById("searchBox");
-        if (x.style.display === "none") {
-          x.style.display = "block";
+        let searchBox = document.getElementById("searchBox");
+        if (searchBox.style.display === "none") {
+            searchBox.style.display = "block";
         } else {
-          x.style.display = "none";
+            searchBox.style.display = "none";
         }
        
     }
