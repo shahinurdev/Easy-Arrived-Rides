@@ -1,13 +1,14 @@
- 
- .loginDiv small{
-    font-size: 30px;
-    padding: 40px;
+ .loginDiv small {
+     font-size: 30px;
+     padding: 40px;
  }
- .googleIcon{
-    color: #2B9D4A;
-    font-size: 35px;
-}
- .fbIcon{
-    color: #2573EC;
-    font-size: 35px;
-}
+ 
+ .googleIcon {
+     color: #2B9D4A;
+     font-size: 35px;
+ }
+ 
+ .fbIcon {
+     color: #2573EC;
+     font-size: 35px;
+ }

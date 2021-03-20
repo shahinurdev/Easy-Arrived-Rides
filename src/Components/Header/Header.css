@@ -1,43 +1,60 @@
-
-.header{
-    height: 300px
+.header {
+    padding-bottom: 80px;
 }
-.header .logo{
+
+.header .logo {
     height: 50px;
     display: block;
     float: left;
     margin: 29px;
 }
-.nav ul{
+
+.nav ul {
     display: block;
     float: right;
     margin-left: 143px;
 }
-.nav li{
+
+.nav li {
     display: inline-block;
     padding: 35px;
 }
-.nav a{
-        text-decoration: none;
-        font-weight: bold;
+
+.nav a {
+    text-decoration: none;
+    font-weight: bold;
 }
+
 li.login {
     background: red;
     padding: 10px;
     border-radius: 3px;
 }
+
 div#root {
     background-image: url(../../images/Bg.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
-    height:800px;
+    height: 800px;
     text-align: center;
 }
-.displayName{
+
+.displayName {
     font-size: 1.25rem;
     display: flex;
     float: right;
     padding-top: 37px;
     padding-left: 30px;
+}
+
+@media (max-width: 480px) {
+    .header nav li {
+        padding: 3px;
+        display: inherit;
+    }
+    div#root {
+        height: 1272px;
+        align-items: center;
+    }
 }
